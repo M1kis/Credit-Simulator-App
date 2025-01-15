@@ -54,4 +54,4 @@ Este proyecto fue desarrollado utilizando las siguientes herramientas y tecnolog
 ## 🌐 Publicación
 
 La aplicación está publicada en Netlify y puede ser accesada desde:  
-[https://tu-usuario.github.io/tu-repositorio](https://tu-usuario.github.io/tu-repositorio)
+https://credit-simulator-app.netlify.app/
