@@ -1,50 +1,57 @@
-# React + TypeScript + Vite
+# Simulador de credito
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Descripción breve:**  
+Este proyecto es una aplicación web interactiva desarrollada con React. El propósito principal es simular detalladamente un credito bancario, donde podras obtener informacion de tu cuota mensual y el plan de pagos. La interfaz es amigable y está optimizada para brindar una experiencia de usuario fluida.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tecnologías Utilizadas
 
-## Expanding the ESLint configuration
+Este proyecto fue desarrollado utilizando las siguientes herramientas y tecnologías:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **React**: Biblioteca principal para construir la interfaz de usuario.  
+- **Vite**: Herramienta de construcción rápida para proyectos de React.  
+- **Tailwind CSS**: Framework de CSS para diseñar una interfaz moderna y responsiva.  
+- **TypeScript**: Lenguaje utilizado para agregar tipado estático al código.  
+- **Toastify**: Librería para mostrar notificaciones y alertas en la interfaz de usuario.
 
-- Configure the top-level `parserOptions` property like this:
+---
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🚀 Características Principales
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Cálculo de créditos financieros:** Permite calcular el monto a financiar, las cuotas mensuales, el interés acumulado y más.  
+- **Interfaz interactiva:** Responde en tiempo real a las entradas del usuario y valida datos antes del cálculo.  
+- **Tabla de amortización:** Genera automáticamente una tabla que muestra el desglose del crédito mes a mes (capital, interés, saldo restante, etc.).  
+- **Notificaciones:** Se muestran mensajes de éxito o error al usuario mediante Toastify.  
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+---
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 📦 Instalación y Configuración
+
+1. Clona este repositorio:  
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   cd tu-repositorio
+   ```
+
+2. Instala las dependencias:  
+   ```bash
+   npm install
+   ```
+
+3. Inicia el servidor de desarrollo:  
+   ```bash
+   npm run dev
+   ```
+
+4. Abre la aplicación en tu navegador en la URL:  
+   ```
+   http://localhost:3000
+   ```
+
+---
+
+## 🌐 Publicación
+
+La aplicación está publicada en GitHub Pages y puede ser accesada desde:  
+[https://tu-usuario.github.io/tu-repositorio](https://tu-usuario.github.io/tu-repositorio)
